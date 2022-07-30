@@ -1,0 +1,81 @@
+/* css for articles.html */
+
+/* global */
+
+@import url("https://use.typekit.net/zep0biw.css");
+
+:root {
+    --primary-color: #1d1934;
+    --secondary-color: #7257fa;
+    --bg-white: #ffffff;
+    --bg-dark: #3c2e7f;
+    --bg-light: #f0f1ff;
+    --bg-icon: #fcb424;
+}
+
+body {
+    background-color: var(--bg-white);
+    color: var(--primary-color);
+    font-family: Nunito, Sans-Serif;
+    /* width: 90%; */
+    margin: 0 auto;
+    line-height: 1.3;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 1.5;
+}
+
+.container {
+    padding: 2rem 4rem;
+}
+
+.content {
+    text-align: center;
+}
+
+.content p {
+    margin-top: 1rem;
+}
+
+/* header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header img {
+    width: 50px;
+}
+
+nav ul {
+    display: flex; 
+    padding: 1rem 0;
+}
+
+nav a {
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 15px;
+    padding-left: 2rem;
+}
+
+    nav a:hover, nav a:active {
+        color: var(--secondary-color);
+    }
+
+/* separator */
+
+.separator {
+    filter: drop-shadow(0px -20px 10px rgba(153, 153, 153, 0.1));
+    opacity: .5;
+}
