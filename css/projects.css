@@ -95,6 +95,7 @@ nav a {
     width: 80%;
     margin: 2rem auto;
     border-radius: 12px;
+    height: fit-content;
 }
 
 .card__img img {
