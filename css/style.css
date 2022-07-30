@@ -127,6 +127,7 @@ nav a {
     margin: 0 0.75rem 0 0;
     background-color: var(--bg-light);
     color: var(--bg-dark);
+    filter: drop-shadow(-1px 2px 5px rgba(0, 0, 0, 0.23));
 }
 
     .menu a:first-of-type {
@@ -137,6 +138,7 @@ nav a {
     .menu a:hover, .menu a:first-of-type:hover {
         background-color: var(--bg-icon);
         color: var(--bg-white);
+        filter: drop-shadow(0 0 0 rgba(0, 0, 0, 0.23));
     }
 
 .menu i {
