@@ -155,6 +155,22 @@ nav a {
     font-size: 18px;
 }
 
+.projects__codepens {
+    margin-top: 2rem;
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+}
+
+.codepen__wrapper {
+    min-width: 48%;
+}
+
+.codepen {
+  height: 300px;
+}
+
 /* footer */
 
 footer {
