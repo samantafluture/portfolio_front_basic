@@ -31,7 +31,7 @@
     <main>
         <!-- Separator -->
         <div class="separator">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,0L48,32C96,64,192,128,288,154.7C384,181,480,171,576,160C672,149,768,139,864,149.3C960,160,1056,192,1152,176C1248,160,1344,96,1392,64L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,192L48,186.7C96,181,192,171,288,181.3C384,192,480,224,576,229.3C672,235,768,213,864,218.7C960,224,1056,256,1152,272C1248,288,1344,288,1392,288L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
         </div>
         <!-- End of Separator -->
         <!-- Contact Buttons -->
@@ -57,9 +57,21 @@
         <!-- End of Separator -->
         <!-- Contact Form -->
         <section class="contact__form content container">
-            <h2>Questions?</h2>
-            <p>Fill the form if you have a question. I would love to help you out!</p>
-            <form action=""></form>
+            <h2>Newsletter</h2>
+            <p>No spam. Only curated tools, news and tutorials every Sunday.</p>
+            <form action="#" method="post">
+                <span>Please, fill the form below.</span>
+                <input type="text" name="name" placeholder="Name*" required>
+                <input type="email" name="email" placeholder="Email*" required>
+                <input type="tel" name="phone" placeholder="Phone Number">
+                <select>
+                    <option value="0">Your preferred language:</option>
+                    <option value="1">English</option>
+                    <option value="2">Portuguese</option>
+                    <option value="1">French</option>
+                </select>
+                <button type="submit"><i class="fa-solid fa-circle-check"></i>Subscribe</button>
+            </form>
         </section>
         <!-- End of Contact Form -->
         <!-- Separator -->
