@@ -166,8 +166,13 @@ nav a {
     }
 
 .fa-brands {
+    transition: transform 1s;
     font-size: 36px;
 }
+
+    .fa-brands:hover{
+        transform: rotate(180deg);
+    }
 
 /* footer */
 
