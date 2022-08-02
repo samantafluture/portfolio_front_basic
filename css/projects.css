@@ -13,6 +13,16 @@
     --bg-icon: #fcb424;
 }
 
+::-moz-selection { 
+    color: var(--bg-white);
+    background: var(--bg-dark)
+  }
+  
+::selection {
+    color: var(--bg-white);
+    background: var(--bg-dark)
+}
+
 body {
     background-color: var(--bg-white);
     color: var(--primary-color);
