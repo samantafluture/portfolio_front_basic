@@ -55,33 +55,122 @@ h2 {
     margin-top: 1rem;
 }
 
+.hidden {
+	display: none;
+	visibility: hidden;
+}
+
 /* header */
 
 header {
-    display: flex;
-    justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 }
 
 header img {
-    width: 50px;
+	width: 50px;
 }
 
 nav ul {
-    display: flex; 
-    padding: 1rem 0;
+	display: flex;
+	padding: 1rem 0;
 }
 
 nav a {
-    font-weight: 700;
-    text-decoration: none;
-    color: var(--primary-color);
-    font-size: 15px;
-    padding-left: 2rem;
+	font-weight: 700;
+	text-decoration: none;
+	color: var(--primary-color);
+	font-size: 15px;
+	padding-left: 2rem;
 }
 
-    nav a:hover, nav a:active {
-        color: var(--secondary-color);
+nav a:hover,
+nav a:active {
+	color: var(--secondary-color);
+}
+
+.nav__mobile {
+    display: none;
+}
+
+  @media (max-width: 680px) {
+    header {
+        position: relative;
     }
+
+	nav {
+		display: none;
+	}
+    
+    .nav__mobile {
+        display: block;
+        position: absolute;
+        top: 2.5rem;
+        right: 2rem;
+    }
+
+	.nav__mobile button {
+		border: none;
+		background-color: transparent;
+		cursor: pointer;
+	}
+	
+    .nav__mobile i {
+		font-size: 20px;
+		font-weight: 700;
+		z-index: 11;
+	} 
+	
+	.nav__mobile .fa-bars {
+        color: var(--primary-color);
+    }
+
+	.nav__mobile .fa-xmark {
+		font-size: 22px;
+		display: block;
+		position: absolute;
+		top: 0;
+		right: 0.5rem;
+		visibility: visible;
+		display: block;
+		color: var(--bg-white)
+	}
+
+    .responsive__nav {
+        display: block;
+		position: absolute;
+		top: 0;
+		left: 0;
+		background-color: var(--bg-dark);
+		z-index: 10;
+		transition: background-color 1s ease;
+    }
+
+	nav ul {
+		width: 100vw;
+		height: 50vh;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		padding: 4rem 0;
+	}
+
+	nav li {
+		padding: 0;
+		margin: 0;
+	}
+
+	nav a {
+		color: var(--bg-white);
+		font-size: 20px;
+		padding: 0;
+		margin: 0;
+	}
+
+		nav a:hover {
+			color: var(--bg-icon);
+		}
+  }
 
 /* separator */
 
