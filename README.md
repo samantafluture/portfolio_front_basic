@@ -2,7 +2,6 @@
 
 # to do's
 
-- Slideshow > style
 - Form Regex > nome e email
 - Responsivo > smartphone, tablet, desk
 
@@ -16,3 +15,4 @@
 # corrections
 
 - Remove first separator from each page
+- Clean up code

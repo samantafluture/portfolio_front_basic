@@ -62,8 +62,8 @@
             <p>No spam. Only curated tools, news and tutorials every Sunday.</p>
             <form action="#" method="post">
                 <span>Please, fill the form below.</span>
-                <input type="text" name="name" placeholder="Name*" required>
-                <input type="email" name="email" placeholder="Email*" required>
+                <input type="text" name="name" id="name" placeholder="Your Name*" size="20" maxlength="50" required>
+                <input type="email" name="email" id="email" placeholder="Your Email*" size="20" maxlength="50" required>
                 <!-- <input type="tel" name="phone" placeholder="Phone Number"> -->
                 <select>
                     <option value="0">Your preferred language:</option>
@@ -71,7 +71,7 @@
                     <option value="2">Portuguese</option>
                     <option value="1">French</option>
                 </select>
-                <button type="submit"><i class="fa-solid fa-circle-check"></i>Subscribe</button>
+                <button type="button" onclick="validate()"><i class="fa-solid fa-circle-check"></i>Subscribe</button>
             </form>
         </section>
         <!-- End of Contact Form -->
@@ -106,7 +106,7 @@
     </footer>
     <!-- End of Footer -->
     <script src="https://kit.fontawesome.com/79051aab8d.js" crossorigin="anonymous"></script>
-    <script src="js/scripts.js"></script>
+    <script src="js/formValidation.js"></script>
 </body>
 </html>
 
