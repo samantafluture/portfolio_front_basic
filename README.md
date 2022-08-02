@@ -2,7 +2,6 @@
 
 # to do's
 
-- Form Regex > nome e email
 - Responsivo > smartphone, tablet, desk
 
 # extras
