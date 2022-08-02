@@ -2,13 +2,15 @@
 
 # to do's
 
-- Personal curiosities (cats, master, Surpride)
 - Slideshow
 - Form Regex
+- Responsivo
+
+# extras
+
 - Active menu nav link
 - Fixed Header
 - Back to Top button
-- Responsivo
 - Tema claro/escuro
 
 # corrections
