@@ -2,9 +2,9 @@
 
 # to do's
 
-- Slideshow
-- Form Regex
-- Responsivo
+- Slideshow > style
+- Form Regex > nome e email
+- Responsivo > smartphone, tablet, desk
 
 # extras
 

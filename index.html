@@ -74,18 +74,19 @@
            <h2>What people are saying</h2>
            <p>Testimonials from my <a href="https://www.linkedin.com/in/samantafluture/">LinkedIn</a> profile.</p>
             <!-- Slideshow -->
-            <div class="slideshow-container">
+            <div class="slideshow__wrapper">
 
                 <!-- The list of slides, as the list of captions, will be defined by JavaScript  -->
                 <!-- 
                      The div "slideSet" will allow to add the slides BEFORE the anchors "prev" and "next".
                      This makes the anchors visible even during animation.
                 -->
-                <div class="slideSet">
+                <div class="slideshow">
                     <!--
-                    <div class="mySlides fade">
-                        <div class="numbertext"></div>
-                        <img style="width:100%">
+                    <div class="slides fade">
+                        <div class="slides__overlay">
+                            <img style="width:100%">
+                        </div>
                         <div class="text"></div>
                     </div>
                     -->
@@ -97,7 +98,7 @@
             </div>
             <br>
         
-            <div class="dots-container">
+            <div class="dots__wrapper">
                 <!-- The span elements for the dots will be dynanmically added to DOM by JavaScript -->
                 <!-- The number of dots will depend on the number of slides -->
             </div>
