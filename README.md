@@ -1,9 +1,5 @@
 # portfolio_front_basic
 
-# to do's
-
-- Responsivo > smartphone, tablet, desk
-
 # extras
 
 - Active menu nav link
@@ -13,5 +9,4 @@
 
 # corrections
 
-- Remove first separator from each page
 - Clean up code
