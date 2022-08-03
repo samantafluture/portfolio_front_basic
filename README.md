@@ -1,12 +1,12 @@
-# portfolio_front_basic
+# Portfolio website
 
-## extras
-- Active menu nav link
-- Fixed Header
-- Back to Top button
+Site built with plain HTML, CSS and JavaScript with the objective to showcase my development projects and a little bit of my personal life.
 
-## future add-ons
-- Theme Light/Dark
+## Under development
+- Light/Dark Theme
+- Hook up my Newsletter database with the Subscribe button/action
+- Deploy at samantafluture.com
 
-## corrections
-- Clean up **code**
+## Bug Corrections
+- Clean up code (CSS is a total mess)
+****
