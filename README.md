@@ -1,12 +1,12 @@
 # portfolio_front_basic
 
-# extras
-
+## extras
 - Active menu nav link
 - Fixed Header
 - Back to Top button
-- Tema claro/escuro
 
-# corrections
+## future add-ons
+- Theme Light/Dark
 
-- Clean up code
+## corrections
+- Clean up **code**
