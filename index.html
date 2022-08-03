@@ -20,10 +20,18 @@
 			<!-- Navigation Desktop-->
 			<nav id="navBar">
 				<ul>
-					<li><a class="nav__btn nav__active" href="index.html">Home</a></li>
+					<li>
+						<a class="nav__btn nav__active" href="index.html"
+							>Home</a
+						>
+					</li>
 					<li><a class="nav__btn" href="about.html">About Me</a></li>
-					<li><a class="nav__btn" href="projects.html">Projects</a></li>
-					<li><a class="nav__btn" href="articles.html">Articles</a></li>
+					<li>
+						<a class="nav__btn" href="projects.html">Projects</a>
+					</li>
+					<li>
+						<a class="nav__btn" href="articles.html">Articles</a>
+					</li>
 					<li><a class="nav__btn" href="contact.html">Contact</a></li>
 				</ul>
 			</nav>
@@ -31,7 +39,9 @@
 		<!-- End of Header -->
 		<!-- Mobile menu -->
 		<div class="nav__mobile" id="btnContainer">
-			<button id="openBtn" type="button" onclick="openMenuMobile()"><i class="fa fa-bars"></i></button>
+			<button id="openBtn" type="button" onclick="openMenuMobile()">
+				<i class="fa fa-bars"></i>
+			</button>
 		</div>
 		<!-- End of Mobile menu -->
 		<!-- Main -->
@@ -188,6 +198,9 @@
 		<!-- End of Main -->
 		<!-- Footer -->
 		<footer class="container">
+			<button onclick="backToTop()" id="btnTop" title="Go to top">
+				<i class="fa-solid fa-arrow-up-long"></i>
+			</button>
 			<p>Made with ❤️ by Samanta in 2022</p>
 		</footer>
 		<!-- End of Footer -->
